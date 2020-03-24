@@ -1,0 +1,26 @@
+{
+  "name": "braddle/unit-test-isolation",
+  "description": "A demonstration of unit test isolation",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mark Bradley",
+      "email": "braddle@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Braddle\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Braddle\\": "test"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.0.1",
+    "mockery/mockery": "1.3.1"
+  }
+}
